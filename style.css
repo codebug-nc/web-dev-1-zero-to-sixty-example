@@ -1,0 +1,64 @@
+body {
+	background-color: black;
+	background-image: url("https://media.giphy.com/media/kcwgBN6LLJZ82X36lF/giphy.gif");
+	color: white;
+	font-family: 'Mystery Quest', cursive;
+}
+
+button {
+	width: 30rem;
+	height: 15rem;
+	border-radius: 20px;
+	font-size: 3rem;
+	margin-left: 1rem;
+	font-family: 'Mystery Quest', cursive;
+}
+
+h1 {
+	font-size: 5rem;
+}
+
+.fortune {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: yellow;
+	font-size: 3rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.button-container {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.yes:hover {
+	background-color: lightblue;
+}
+
+.no:hover {
+	background-color: red;
+	color: white;
+}
+
+.try-again-button:hover {
+	background-color: lightgray;
+}
+
+.bottom-sentence {
+	font-size: 3rem;
+	color: white;
+}
+
+.cat-in-ball {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: yellow;
+	font-size: 3rem;
+}
